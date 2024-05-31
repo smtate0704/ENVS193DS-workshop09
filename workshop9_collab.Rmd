@@ -42,6 +42,20 @@ ggplot(data = pie_crab,
 ```
 
 
+writing a model
+```{r}
+crab_model <- lm(size ~ latitude, #response ~ predictor
+                 data = pie_crab) #data from lterdatasampler
+
+#look at diagnostics here
+par(mfrow = c(2,2)) # plot diagnostics in 2x2 grid
+plot(crab_model)
+
+```
+
+
+```{r}
+```
 
 
 
