@@ -17,3 +17,17 @@ library(ggeffects)
 #for easy file path
 library(here)
 ```
+
+
+reading in data:
+```{r}
+data(pie_crab) #reading in plum island ecosystem crab data set from lterdatasampler package
+```
+
+
+
+
+
+
+
+
