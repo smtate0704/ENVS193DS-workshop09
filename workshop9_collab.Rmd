@@ -25,7 +25,21 @@ data(pie_crab) #reading in plum island ecosystem crab data set from lterdatasamp
 ```
 
 
+exploratory visualization 
+```{r}
+#set up plot
+ggplot(data = pie_crab, 
+       aes(x=latitude, y=size)) + 
+  #scatterplot and make it blue
+  geom_point(color = "skyblue2") + 
+  #update axis labels
+  labs(x = "Latitude", y = "Size") + 
+  #get rid of grid lines 
+  theme_minimal()
+  
 
+
+```
 
 
 
