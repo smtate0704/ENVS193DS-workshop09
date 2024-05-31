@@ -1,0 +1,19 @@
+---
+title: "workshop9"
+author: "Paige Lund"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+#load libraries 
+
+```{r}
+#for wrangling and plotting 
+library(tidyverse)
+#for data access
+library(lterdatasampler)
+#for models
+library(ggeffects)
+#for easy file path
+library(here)
+```
